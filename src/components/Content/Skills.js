@@ -18,13 +18,12 @@ const pythonGroup = {
         {skillName: "RESTapi", logoImg: apiImg},
         {skillName: "Qtdesigner", logoImg: qtDis},
         {skillName: "Selenium", logoImg: selenium},
-        {skillName: "BS4", logoImg: bs},
-        {skillName: "matplotlib", logoImg: mpl},
-        // {skillName: "Tkinter"},
-        // {skillName: "Qtdesigner"},
-        // {skillName: "Qtdesigner"},
+        {skillName: "Beautfulsoup", logoImg: bs},
+        {skillName: "Matplotlib", logoImg: mpl},
+        {skillName: "Matplotlib", logoImg: mpl},
+        {skillName: "Matplotlib", logoImg: mpl},
+        {skillName: "Matplotlib", logoImg: mpl},
     ]
-
 }
 
 export default function Skills({skillsId , logo}) {
@@ -32,9 +31,14 @@ export default function Skills({skillsId , logo}) {
     
   return (
     <section id={skillsId} className='h-full'>
-        <div className='container  mx-auto h-full'>
+        <div className='container mx-auto h-full'>
             <GroupTitle title={"Skills"}/>
-            <SkillWindow skillObject={pythonGroup}/>
+            <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1'>
+                <SkillWindow skillObject={pythonGroup}/>
+                <SkillWindow skillObject={pythonGroup}/>
+                <SkillWindow skillObject={pythonGroup}/>
+                <SkillWindow skillObject={pythonGroup}/>
+            </div>
             {/* <SkillWindow skillObject={{}}/>
             <SkillWindow skillObject={{}}/> */}
         </div>
