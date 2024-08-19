@@ -1,5 +1,7 @@
 /* @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 module.exports = {
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -11,12 +13,21 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      // ...
+      //...
       'tahiti': {
         light: '#67e8f9',
         DEFAULT: '#06b6d4',
         dark: '#0e7490',
       },
+      'transparent': 'transparent',
+      'current': 'currentColor',
+      'black': colors.black,
+      'white': colors.white,
+      'gray': colors.gray,
+      'emerald': colors.emerald,
+      'indigo': colors.indigo,
+      'yellow': colors.yellow,
+      
       // ...
     },
     fontFamily: {

@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Logo() {
   return (
-    <div>Logo</div>
+    <a href="#">Dev.Kubicki</a>
   )
 }
