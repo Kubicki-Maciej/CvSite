@@ -6,12 +6,12 @@ import Logo from './Logo'
 
 export default function Nav() {
   return (
-    <nav class=" p-4">
+    <nav class="xl:p-12 p-8">
         <div class="container mx-auto flex justify-between items-center ">
             <div class=" font-bold text-xl">
                 <Logo />
             </div>
-            <div class="space-x-4">
+            <div class="space-x-5">
                 <Button btnName={"Skills"}/>
                 <Button btnName={"Project"}/>
                 <Button btnName={"Contact"}/>
