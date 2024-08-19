@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Nav from './components/NavBar/Nav';
 import Homepage from './components/StartPage/Homepage';
@@ -6,10 +6,11 @@ import Skills from './components/Content/Skills';
 
 function App() {
   return (
-    <div className=''>
+    <div className='scroll-behavior: auto'>
       <Nav />
-      <Homepage />
-      <Skills/>
+      <Homepage id={'home'}/>
+      <Skills skillsId={'skills'}/>
+      
       
     </div>
   );

@@ -12,10 +12,10 @@ export default function Nav() {
                 <Logo />
             </div>
             <div class="space-x-5">
-                <Button btnName={"Skills"}/>
-                <Button btnName={"Project"}/>
+                <Button btnName={"Skills"} direction={"#skills"}/>
+                <Button btnName={"Project"} direction={"#project"}/>
                 <Button btnName={"Contact"}/>
-                <Button btnName={"About me"}/>
+                <Button btnName={"About me"} direction={"#aboutme"}/>
                 <ThemeToggle/>
             </div>
         </div>
