@@ -33,18 +33,19 @@ export default function CirclePicutre({src, alt}) {
               
               src={src}
               alt={alt}
-              className="w-full h-full object-scale-down rounded-full absolute"
+              className="w-full h-full object-scale-down rounded-full"
             />
 
           </motion.div>
           <motion.svg
-            className="w-[300px] xl:w-[560px] h-[300px] xl:h-[560px]  "
+            className="w-[300px] xl:w-[560px] h-[300px] xl:h-[560px] absolute "
             fill="transparent"
             viewBox=" 0 0 506 506"
             xmlns="http://www.w3.org/2000/svg"
           >
+
             <motion.circle 
-              className=""
+              className="absolute"
               cx="253"
               cy="253"
               r="250"
@@ -63,8 +64,8 @@ export default function CirclePicutre({src, alt}) {
                 repeatType: "reverse"
               }}
             />
-
           </motion.svg>
+
           </motion.div>
           </div>
         
