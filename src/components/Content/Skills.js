@@ -54,13 +54,12 @@ const otherSkills = {
 
 export default function Skills({skillsId , logo}) {
 
-    
   return (
     <section id={skillsId} className='h-full'>
-        <div className='container mx-auto h-full'>
+        <div className='container mx-auto h-full '>
             <GroupTitle title={"Skills"}/>
             <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center '>
-                <SkillWindow skillObject={pythonGroup}/>
+                <SkillWindow skillObject={pythonGroup} />
                 <SkillWindow skillObject={javaScriptGroup}/>
                 <SkillWindow skillObject={otherSkills}/>
             </div>

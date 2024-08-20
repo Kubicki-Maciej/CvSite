@@ -1,10 +1,9 @@
-
 import './App.css';
 import Nav from './components/NavBar/Nav';
 import Homepage from './components/StartPage/Homepage';
 import Skills from './components/Content/Skills';
 import ParticleBg from './components/Core/ParticleBg'
-
+import Projects from './components/Content/Projects';
 
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
         <Nav />
         <Homepage id={'home'}/>
         <Skills skillsId={'skills'}/>
+        <Projects projectId={'project'}/>
       </div>
     </div>
   );

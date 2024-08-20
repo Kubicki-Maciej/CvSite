@@ -4,7 +4,7 @@ import SingleSkill from './SingleSkill'
 export default function SkillWindow({skillObject}) {
   return (
 
-    <div className='w-full mb-2 mt-2'>
+    <div className='w-full mb-2 mt-2  '>
       {/* groupName */}
       <div className=' dark:border-white border-2 border-black rounded-lg  mb-4 ml-2 mr-2 h-full  '>
         <div className='flex items-center justify-center mb-4 mt-4'>
