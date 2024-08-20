@@ -4,7 +4,6 @@ export default function ThemeToggle(){
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    // Sprawdzenie i ustawienie początkowego motywu na podstawie localStorage
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
       setTheme(savedTheme);

@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 
-.center-last-row {
-    grid-column: span 1 / -1;
-    justify-self: center;
+
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background: red;
 }

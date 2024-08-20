@@ -6,8 +6,8 @@ import Logo from './Logo'
 
 export default function Nav() {
   return (
-    <nav class="xl:p-12 p-8">
-        <div class="container mx-auto flex justify-between items-center ">
+    <nav class="xl:p-12 p-8 ">
+        <div class="container mx-auto flex justify-between items-center z-[1]">
             <div class=" font-bold text-xl">
                 <Logo />
             </div>
