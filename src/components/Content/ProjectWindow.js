@@ -4,10 +4,9 @@ import ControlledCarousel from './Gallery'
 import ProjectContent from './ProjectContent';
 
 export default function ProjectWindow({index, projectObject}) {
-    const [currentIndexImage, setCurrentIndexImage] = useState(1)    
+    const [currentIndexImage, setCurrentIndexImage] = useState(0)    
 
     function selectIndex(index){
-        console.log(index);
         setCurrentIndexImage(index)
     }
         
@@ -15,10 +14,11 @@ export default function ProjectWindow({index, projectObject}) {
     <div className='mb-4 mt-2'>
     <div className='grid grid-cols-1 border-2 dark:border-border-dark  border-border-light rounded-lg lg:p-12 md:p-2 xl:p-4 mb-4 ml-2 mr-2 h-full   '>
         <div>
-            <ControlledCarousel currentIndex={currentIndexImage} setIndex={selectIndex}/>
+            <ControlledCarousel currentIndex={currentIndexImage} setIndex={selectIndex} listOfObjects={projectObject.imagesAndTextObjects}/>
         </div>
+
         <div className='flex flex-row justify-center align-middle '>
-            <ProjectContent/>
+            <ProjectContent title={projectObject.name} object={projectObject.imagesAndTextObjects[currentIndexImage]} technologyUsed={projectObject.technologyUsed}/>
         </div>
     </div>
     </div>
