@@ -9,7 +9,6 @@ export default function SingleSkill({name, logo, lvl, colorLess}) {
           : 
           <img src={logo} alt={name} className='h-full object-contain ' />
           } 
-          
         </div>
         <div className='ml-4'>
           <p className='text-md'>{name}</p>
