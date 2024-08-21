@@ -63,6 +63,7 @@ export default function ParticleBg(){
           },
         },
       },
+      
       particles: {
         color: {
           value: "#737373",

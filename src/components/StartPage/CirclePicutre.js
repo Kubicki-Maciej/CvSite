@@ -15,7 +15,7 @@ export default function CirclePicutre({src, alt}) {
             opacity:1 , transition: {delay:0.3 , duration: 0.4, ease: "easeIn"}
           }}
 
-          className='w-[300px] h-[300px] xl:w-[560px] xl:h-[560px] '
+          className='w-[300px] h-[300px] xl:w-[450px] xl:h-[450px] '
         >
           <motion.div 
           initial={{opacity: 0}}
@@ -26,7 +26,7 @@ export default function CirclePicutre({src, alt}) {
             opacity:1 , transition: {delay:0.3 , duration: 0.4, ease: "easeOut"}
           }}
 
-          className='w-[298px] h-[298px] xl:w-[560px] xl:h-[560px] absolute'
+          className='w-[298px] h-[298px] xl:w-[450px] xl:h-[450px] absolute'
           >
 
             <img
@@ -38,7 +38,7 @@ export default function CirclePicutre({src, alt}) {
 
           </motion.div>
           <motion.svg
-            className="w-[300px] xl:w-[560px] h-[300px] xl:h-[560px] absolute "
+            className="w-[300px] xl:w-[450px] h-[300px] xl:h-[450px] absolute "
             fill="transparent"
             viewBox=" 0 0 506 506"
             xmlns="http://www.w3.org/2000/svg"

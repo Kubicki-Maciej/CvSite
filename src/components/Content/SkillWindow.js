@@ -14,7 +14,7 @@ export default function SkillWindow({skillObject}) {
         <div className='grid grid-cols-2 items-center  justify-center'>
         {skillObject.listOfSingleSkillObject.map((skill, index) => (
         <div key={index} className="">
-          <SingleSkill name={skill.skillName} logo={skill.logoImg} lvl={skill.level}/>
+          <SingleSkill name={skill.skillName} logo={skill.logoImg} lvl={skill.level} colorLess={skill.colorLess}/>
         </div>
       ))}
       </div>
