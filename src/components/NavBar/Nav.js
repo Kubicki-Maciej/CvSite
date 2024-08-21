@@ -11,7 +11,7 @@ export default function Nav() {
             <div class=" font-bold text-xl">
                 <Logo />
             </div>
-            <div class="space-x-5">
+            <div class="space-x-3 flex flex-row just">
                 <Button btnName={"Skills"} direction={"#skills"}/>
                 <Button btnName={"Project"} direction={"#project"}/>
                 <Button btnName={"Contact"}/>

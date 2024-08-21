@@ -1,6 +1,7 @@
 /* @type {import('tailwindcss').Config} */
 const { color } = require('framer-motion')
 const colors = require('tailwindcss/colors')
+
 module.exports = {
   darkMode: 'class',
   content: [
@@ -14,7 +15,8 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      //...
+      'border-light': 'black', 
+      'border-dark': 'white',
       'tahiti': {
         light: '#67e8f9',
         DEFAULT: '#06b6d4',
@@ -23,8 +25,9 @@ module.exports = {
       'background':{
         darkda: '#282828',
         light:'#DEE4E7',
-        dark: '#181818'
+        dark: '#181818',
       },
+      
       'transparent': 'transparent',
       'current': 'currentColor',
       'stale': colors.stale,

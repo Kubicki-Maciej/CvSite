@@ -13,7 +13,7 @@ export default function ProjectWindow({index, projectObject}) {
         
   return (
     <div className='mb-4 mt-2'>
-    <div className='grid grid-cols-1 dark:border-white border-2 border-black rounded-lg lg:p-12 md:p-2 xl:p-4 mb-4 ml-2 mr-2 h-full   '>
+    <div className='grid grid-cols-1 border-2 dark:border-border-dark  border-border-light rounded-lg lg:p-12 md:p-2 xl:p-4 mb-4 ml-2 mr-2 h-full   '>
         <div>
             <ControlledCarousel currentIndex={currentIndexImage} setIndex={selectIndex}/>
         </div>

@@ -16,6 +16,12 @@ export default function ControlledCarousel({index, setIndex}) {
         <Carousel.Caption >
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item
+      style={{color:"grey"}}>
+        <img  className="d-block h-100" src={randomImg} alt='random'/>
+        <Carousel.Caption >
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item>
       <img  className="d-block h-100" src={randomImg} alt='random'/>
         <Carousel.Caption>

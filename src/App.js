@@ -9,7 +9,7 @@ import Projects from './components/Content/Projects';
 function App() {
 
   return (
-    <div className='scroll-behavior: auto'>
+    <div className='scroll-behavior: auto '>
       <ParticleBg/>
       <div className="relative z-10 min-h-screen ">
         <Nav />

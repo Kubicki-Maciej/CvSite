@@ -58,7 +58,7 @@ export default function ParticleBg(){
             quantity: 4,
           },
           repulse: {
-            distance: 200,
+            distance: 100,
             duration: 0.4,
           },
         },
@@ -88,7 +88,7 @@ export default function ParticleBg(){
           density: {
             enable: true,
           },
-          value: 25,
+          value: 8,
         },
         opacity: {
           value: 0.5,

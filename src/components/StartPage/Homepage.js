@@ -18,7 +18,7 @@ export default function Homepage() {
             </div>
             <div>
             
-                {/* <StartPageInfo/> */}
+                <StartPageInfo/>
             </div>
         </div>
     </section>
