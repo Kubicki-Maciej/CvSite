@@ -17,6 +17,7 @@ module.exports = {
     colors: {
       'border-light': 'black', 
       'border-dark': 'white',
+      
       'tahiti': {
         light: '#67e8f9',
         DEFAULT: '#06b6d4',
