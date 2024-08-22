@@ -12,7 +12,7 @@ export default function ControlledCarousel({index, setIndex, listOfObjects}) {
       {listOfObjects.map((object, index)=>(
         <Carousel.Item
         style={{color:"grey"}}>
-          <img  className="d-block h-100  " src={object.image} alt={object.alt}/>
+          <img  className="d-block w-100  " src={object.image} alt={object.alt}/>
           <Carousel.Caption >
           </Carousel.Caption>
         </Carousel.Item>
