@@ -33,7 +33,7 @@ export default function Nav() {
         <div className={` space-x-3 flex justify-center flex-row  ${isShrunk ? 'text-sm' : 'text-base'}`}>
           <Button btnName={"Skills"} direction={"#skills"} />
           <Button btnName={"Project"} direction={"#project"} />
-          <Button btnName={"About me"} direction={"#aboutme"} />
+          {/* <Button btnName={"About me"} direction={"#aboutme"} /> */}
           <ThemeToggle />
         </div>
       </div>

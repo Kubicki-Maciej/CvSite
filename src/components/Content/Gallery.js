@@ -8,11 +8,11 @@ import randomImg from '../Images/Logo/jsShield.png'
 export default function ControlledCarousel({index, setIndex, listOfObjects}) {
   return (
     <Carousel 
-    interval={null} className="bg-background-dark bg-opacity-50 p-2 rounded m-2" activeIndex={index} onSelect={setIndex} style={{color:"black"}}>
+    interval={null} className="bg-background-dark bg-opacity-50 p-2 rounded m-2 object-fit-cover" activeIndex={index} onSelect={setIndex} style={{color:"black"}}>
       {listOfObjects.map((object, index)=>(
         <Carousel.Item
         style={{color:"grey"}}>
-          <img  className="d-block h-100" src={object.image} alt={object.alt}/>
+          <img  className="d-block h-100  " src={object.image} alt={object.alt}/>
           <Carousel.Caption >
           </Carousel.Caption>
         </Carousel.Item>
