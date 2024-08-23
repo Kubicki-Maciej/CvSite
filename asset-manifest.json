@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CvSite/static/css/main.2fa8c4f3.css",
-    "main.js": "/CvSite/static/js/main.b269bc4b.js",
+    "main.css": "/CvSite/static/css/main.4d19bf44.css",
+    "main.js": "/CvSite/static/js/main.626e0fc8.js",
     "static/js/453.5333ad58.chunk.js": "/CvSite/static/js/453.5333ad58.chunk.js",
     "static/media/Autoportret.bmp": "/CvSite/static/media/Autoportret.86bcda1069d80085829c.bmp",
     "static/media/ZnajdzrozniceM.png": "/CvSite/static/media/ZnajdzrozniceM.69669276de899dba26b8.png",
@@ -36,12 +36,12 @@
     "static/media/Selenium.png": "/CvSite/static/media/Selenium.132e03261e9d81d546f4.png",
     "static/media/js.png": "/CvSite/static/media/js.dafbcd7fb56fcfce553c.png",
     "index.html": "/CvSite/index.html",
-    "main.2fa8c4f3.css.map": "/CvSite/static/css/main.2fa8c4f3.css.map",
-    "main.b269bc4b.js.map": "/CvSite/static/js/main.b269bc4b.js.map",
+    "main.4d19bf44.css.map": "/CvSite/static/css/main.4d19bf44.css.map",
+    "main.626e0fc8.js.map": "/CvSite/static/js/main.626e0fc8.js.map",
     "453.5333ad58.chunk.js.map": "/CvSite/static/js/453.5333ad58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fa8c4f3.css",
-    "static/js/main.b269bc4b.js"
+    "static/css/main.4d19bf44.css",
+    "static/js/main.626e0fc8.js"
   ]
 }
