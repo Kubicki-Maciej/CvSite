@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CvSite/static/css/main.5c2a08a2.css",
-    "main.js": "/CvSite/static/js/main.c4163461.js",
+    "main.js": "/CvSite/static/js/main.c7c7d6ce.js",
     "static/js/453.5333ad58.chunk.js": "/CvSite/static/js/453.5333ad58.chunk.js",
     "static/media/Autoportret.bmp": "/CvSite/static/media/Autoportret.86bcda1069d80085829c.bmp",
     "static/media/ZnajdzrozniceM.png": "/CvSite/static/media/ZnajdzrozniceM.69669276de899dba26b8.png",
@@ -38,11 +38,11 @@
     "static/media/js.png": "/CvSite/static/media/js.dafbcd7fb56fcfce553c.png",
     "index.html": "/CvSite/index.html",
     "main.5c2a08a2.css.map": "/CvSite/static/css/main.5c2a08a2.css.map",
-    "main.c4163461.js.map": "/CvSite/static/js/main.c4163461.js.map",
+    "main.c7c7d6ce.js.map": "/CvSite/static/js/main.c7c7d6ce.js.map",
     "453.5333ad58.chunk.js.map": "/CvSite/static/js/453.5333ad58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c2a08a2.css",
-    "static/js/main.c4163461.js"
+    "static/js/main.c7c7d6ce.js"
   ]
 }
