@@ -5,7 +5,6 @@
 @layer base{
     body{
         @apply bg-background-light dark:bg-background-dark  text-black dark:text-white;
-
-
+        
     }
 }

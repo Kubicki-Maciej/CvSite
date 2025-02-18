@@ -28,6 +28,10 @@ import gameRentalOneImg from './components/Images/GameRental/GamesLend2.png'
 import gameRentalTwoImg from './components/Images/GameRental/GamesLend3.png'
 
 const projectObjectRestaurant = {
+  boolLinktToProject:true,
+  url:"https://kubicki-maciej.github.io/Restaurant_Front/",
+  boolGithub:true,
+  urlGitHub:"https://github.com/Kubicki-Maciej/Restaurant_Front",
   technologyUsed:['Django ', 'RestApi ', 'React '],
   name:"Restaurant App",
   imagesAndTextObjects:[
@@ -59,6 +63,9 @@ const projectObjectRestaurant = {
 }
 
 const comercialProjects = {
+  boolLinktToProject:true,
+  url:"https://www.zmuzykanawesolo.operalodz.com/#kontrabas",
+  boolGithub:false,
   technologyUsed:['Vanilla JS ', 'Commercial Project'],
   name:"WebGames",
   imagesAndTextObjects:[
@@ -84,6 +91,8 @@ const comercialProjects = {
 }
 
 const wowAhProjects = {
+  boolGithub:true,
+  urlGitHub:"https://github.com/Kubicki-Maciej/wowAuctionHouseProgram",
   technologyUsed:['Python ', 'Api ', 'Tkinter ', 'Beautifulsoup ', 'SQL Postgres'],
   name:"Wow Auction",
   imagesAndTextObjects:[
@@ -104,6 +113,8 @@ const wowAhProjects = {
 }
 
 const discordSoundPanel = {
+  boolGithub:true,
+  urlGitHub:"https://github.com/Kubicki-Maciej/DiscordBotWithSoundpanel",
   technologyUsed:['Python ', 'Api ', 'Tkinter ', 'Beautifulsoup ', 'SQL Postgres'],
   name:"DiscordBot SoundPanel",
 
@@ -145,6 +156,8 @@ const djangoShop = {
 }
 
 const gameRental = {
+  boolGithub:true,
+  urlGitHub:"https://github.com/Kubicki-Maciej/Restaurant_Front",
   technologyUsed:['Django ', 'RestApi ', 'React '],
   name:"Game Rental",
   imagesAndTextObjects:[
@@ -188,8 +201,6 @@ function App() {
         <Homepage id={'home'}/>
         <Skills skillsId={'skills'}/>
         <Projects projectId={'project'} projectList={projectList}/>
-        <AboutMePage/>        
-
       </div>
     </div>
   );

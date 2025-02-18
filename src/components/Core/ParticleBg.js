@@ -45,7 +45,7 @@ export default function ParticleBg(){
       interactivity: {
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push",
           },
           onHover: {
@@ -87,9 +87,10 @@ export default function ParticleBg(){
         },
         number: {
           density: {
-            enable: true,
+            enable: false,
+            value_area: 15
           },
-          value: 8,
+          value: 25,
         },
         opacity: {
           value: 0.5,

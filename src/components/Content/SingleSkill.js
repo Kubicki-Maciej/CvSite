@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function SingleSkill({name, logo, lvl, colorLess}) {
   return (
     <div className='flex items-center  mb-2 mt-2 ml-4 mr-4 p-2'>
@@ -13,6 +14,9 @@ export default function SingleSkill({name, logo, lvl, colorLess}) {
         <div className='ml-4'>
           <p className='text-md'>{name}</p>
           <p className='text-sm'>{lvl}</p>
+          <div>
+            
+          </div>
         </div>
     </div>
   )

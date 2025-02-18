@@ -1,6 +1,7 @@
 import React from 'react'
 import SingleSkill from './SingleSkill'
 
+
 export default function SkillWindow({skillObject}) {
   return (
 
@@ -16,9 +17,12 @@ export default function SkillWindow({skillObject}) {
         <div key={index} className="">
           <SingleSkill name={skill.skillName} logo={skill.logoImg} lvl={skill.level} colorLess={skill.colorLess}/>
         </div>
+
+
       ))}
       </div>
-
+        
+          
         
       </div>
       
